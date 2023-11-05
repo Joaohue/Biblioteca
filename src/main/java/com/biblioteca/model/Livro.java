@@ -1,8 +1,6 @@
 package com.biblioteca.model;
 
 import java.util.Objects;
-
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
