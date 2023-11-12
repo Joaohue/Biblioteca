@@ -38,9 +38,16 @@ public class LivroController {
 		livroRepository.delete(livro);
 	}
 	
-	@PutMapping
-	public Livro Atualiza(@RequestBody Livro livro) {
-		return livroRepository.save(livro);
-	}
+	@@PutMapping
+        public ResponseEntity<?> Atualiza(@RequestBody Livro livro) {
+        try {
+            Livro livroAtualizado = livroRepository.save(livro);
+            return ResponseEntity.ok(livroAtualizado); 
+        } catch (Exception e) {
+            String mensagemErro = "Erro ao atualizar: Forneça o ID, nome e o novo gênero para atualizar o livro.";
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(mensagemErro);
+        }
+    }
+ }
 	
 }
