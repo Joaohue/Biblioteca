@@ -38,7 +38,7 @@ public class LivroController {
 		livroRepository.delete(livro);
 	}
 	
-	@@PutMapping
+	@PutMapping
         public ResponseEntity<?> Atualiza(@RequestBody Livro livro) {
         try {
             Livro livroAtualizado = livroRepository.save(livro);
