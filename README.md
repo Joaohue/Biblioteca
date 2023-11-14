@@ -2,7 +2,6 @@
 <br />
 
 ### Descrição: 
-
 Nesse projeto, criado na Universidade São Francisco na matéria de Programação orientada a objetos, será apresentado uma estrutura capaz de realizar o lançamento, atualizar e deletar um objeto, nesse caso, o objeto será um livro.
 <br /> <br />
 
