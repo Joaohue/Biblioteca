@@ -7,7 +7,7 @@ Nesse projeto, criado na Universidade São Francisco na matéria de Programaçã
 
 //mostrar funcionamento com foto e/ou vídeo
 
-### Nomes dos desenvolvedores: <br />
+### Nomes dos desenvolvedores:
 Gabriel Guilherme Gutierre RA: 202111615 <br />
 João Vitor Silva RA: 202114022 <br />
 <br />
