@@ -15,11 +15,14 @@ public class Livro {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String nome;
+	
 	
 	@Column(nullable = false)
 	private String genero;
 
+	@Column(nullable = false)
+	private String nome;
+	
 	public Long getId() {
 		return id;
 	}
