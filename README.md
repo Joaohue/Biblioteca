@@ -15,7 +15,7 @@ João Vitor Silva RA: 202114022 <br />
 <br />
 
 ### Tecnologias empregadas:
-Java: A linguagem de programação Java é a base do projeto. Ela é uma linguagem robusta e versátil, que pode ser usada para criar aplicações para diversos sistemas operacionais.
+Java: A linguagem de programação Java é a base do projeto. Ela é uma linguagem robusta e versátil, que pode ser usada para criar aplicações para diversos sistemas operacionais. <br />
 Crud: O CRUD é um conjunto de operações básicas para manipular dados em um banco de dados. Ele permite criar, ler, atualizar e excluir registros.
 <br /> <br />
 
