@@ -15,10 +15,13 @@ João Vitor Silva RA: 202114022 <br />
 <br />
 
 ### Tecnologias empregadas:
+Java: A linguagem de programação Java é a base do projeto. Ela é uma linguagem robusta e versátil, que pode ser usada para criar aplicações para diversos sistemas operacionais.
+Crud: O CRUD é um conjunto de operações básicas para manipular dados em um banco de dados. Ele permite criar, ler, atualizar e excluir registros.
 <br /> <br />
 
 ### Descrição da arquitetura:
+
 <br /> <br />
 
 ### Funcionalidade:
-<br />
+Foi criado um sistema backend capaz de realizar a leitura dos livros presentes no banco de dados, adicionar, atualizar e também excluir caso seja necessário.
