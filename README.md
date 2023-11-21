@@ -22,19 +22,19 @@ Crud: O CRUD é um conjunto de operações básicas para manipular dados em um b
 ### Descrição da arquitetura:
 
 1. *Model (Modelo):* <br />
-   - A classe Livro atua como o modelo de dados, representando a entidade "Livro" que é armazenada no banco de dados. <br />
+   - A classe Livro representa um livro, com atributos como título, autor e ano de publicação. Ela é armazenada no banco de dados. <br />
     
 2. *View (Visualização):* <br />
-   - Não há uma camada de visualização explícita no código fornecido. Em aplicações Spring Boot, a visualização muitas vezes é implementada usando templates (por exemplo, Thymeleaf) ou retornando JSON para ser consumido por uma interface de usuário front-end. <br />
+   - A visualização é responsável por apresentar os dados ao usuário. Em aplicações Spring Boot, ela pode ser implementada usando templates ou retornando JSON. <br />
 
 3. *Controller (Controlador):* <br />
-   - A classe LivroController funciona como o controlador da aplicação. Ele recebe requisições HTTP, interage com o modelo (usando LivroRepository para acessar o banco de dados) e retorna os resultados (por exemplo, uma lista de livros, um livro recém-adicionado, etc.). <br />
+   - O controlador recebe requisições HTTP do usuário e as processa. Ele interage com o modelo para acessar os dados e retorna os resultados ao usuário. <br />
 
 4. *Repository (Repositório):* <br />
-   - A interface LivroRepository estende JpaRepository do Spring Data JPA, fornecendo métodos para operações de acesso a dados relacionados à entidade Livro. Ela age como um repositório de dados, permitindo interações com o banco de dados de forma simplificada. <br />
+   - O repositório é responsável por acessar os dados no banco de dados. Ele fornece métodos para operações comuns, como salvar, buscar, atualizar e excluir dados. <br />
 
 5. *BibliotecaApplication (Aplicação):* <br />
-   - A classe BibliotecaApplication é a classe principal que inicia a aplicação Spring Boot. Ela contém o método main, que é o ponto de entrada da aplicação.
+   - A classe principal inicia a aplicação Spring Boot. Ela contém o método main, que é o ponto de entrada da aplicação.
 
 <br /> <br />
 
