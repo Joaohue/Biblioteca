@@ -22,7 +22,7 @@ Crud: O CRUD é um conjunto de operações básicas para manipular dados em um b
 ### Descrição da arquitetura:
 
 1. *Model (Modelo):* <br />
-   - A classe Livro representa um livro, com atributos como título, autor e ano de publicação. Ela é armazenada no banco de dados. <br />
+   - A classe Livro representa um livro, com atributos como título e gênero. Ela é armazenada no banco de dados. <br />
     
 2. *View (Visualização):* <br />
    - A visualização é responsável por apresentar os dados ao usuário. Em aplicações Spring Boot, ela pode ser implementada usando templates ou retornando JSON. <br />
