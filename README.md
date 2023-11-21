@@ -20,7 +20,21 @@ Crud: O CRUD é um conjunto de operações básicas para manipular dados em um b
 <br /> <br />
 
 ### Descrição da arquitetura:
-![Imagem do Google Drive](https://drive.google.com/file/d/1fXUJ_AaQSj6j256pAzEWkjfYZu2UA4ji/view?usp=sharing)
+
+1. *Model (Modelo):* <br />
+   - A classe Livro atua como o modelo de dados, representando a entidade "Livro" que é armazenada no banco de dados. <br />
+    
+2. *View (Visualização):* <br />
+   - Não há uma camada de visualização explícita no código fornecido. Em aplicações Spring Boot, a visualização muitas vezes é implementada usando templates (por exemplo, Thymeleaf) ou retornando JSON para ser consumido por uma interface de usuário front-end. <br />
+
+3. *Controller (Controlador):* <br />
+   - A classe LivroController funciona como o controlador da aplicação. Ele recebe requisições HTTP, interage com o modelo (usando LivroRepository para acessar o banco de dados) e retorna os resultados (por exemplo, uma lista de livros, um livro recém-adicionado, etc.). <br />
+
+4. *Repository (Repositório):* <br />
+   - A interface LivroRepository estende JpaRepository do Spring Data JPA, fornecendo métodos para operações de acesso a dados relacionados à entidade Livro. Ela age como um repositório de dados, permitindo interações com o banco de dados de forma simplificada. <br />
+
+5. *BibliotecaApplication (Aplicação):* <br />
+   - A classe BibliotecaApplication é a classe principal que inicia a aplicação Spring Boot. Ela contém o método main, que é o ponto de entrada da aplicação.
 
 <br /> <br />
 
