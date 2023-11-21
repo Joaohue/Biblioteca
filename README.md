@@ -21,7 +21,7 @@ Crud: O CRUD é um conjunto de operações básicas para manipular dados em um b
 
 ### Descrição da arquitetura:
 ![Imagem do Google Drive](https://drive.google.com/file/d/1fXUJ_AaQSj6j256pAzEWkjfYZu2UA4ji/view?usp=drivesdk)
-<img src="https://drive.google.com/file/d/1fXUJ_AaQSj6j256pAzEWkjfYZu2UA4ji/view?usp=drivesdk" alt="Texto Alternativo">
+<img src="https://drive.google.com/file/d/1fXUJ_AaQSj6j256pAzEWkjfYZu2UA4ji/view" alt="Texto Alternativo">
 <br /> <br />
 
 ### Funcionalidade:
